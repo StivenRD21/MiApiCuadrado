@@ -11,7 +11,7 @@ public class MathController : ControllerBase
     {
         if (numero < 0)
             return BadRequest("El número debe ser mayor o igual a 0.");
-        
+
         return Ok(numero * numero);
     }
 }

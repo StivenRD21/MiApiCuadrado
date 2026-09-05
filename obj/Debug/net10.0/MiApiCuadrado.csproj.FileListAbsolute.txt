@@ -65,3 +65,9 @@ C:\Programación IV\Clase1\MiApiCuadrado\bin\Debug\net10.0\runtimes\win-arm64\na
 C:\Programación IV\Clase1\MiApiCuadrado\bin\Debug\net10.0\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Programación IV\Clase1\MiApiCuadrado\bin\Debug\net10.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 C:\Programación IV\Clase1\MiApiCuadrado\obj\Debug\net10.0\MiApiCuadrado.sourcelink.json
+C:\Programación IV\Clase1\MiApiCuadrado\bin\Debug\net10.0\publish\web.config
+C:\Programación IV\Clase1\MiApiCuadrado\bin\Debug\net10.0\publish\appsettings.Development.json
+C:\Programación IV\Clase1\MiApiCuadrado\bin\Debug\net10.0\publish\appsettings.json
+C:\Programación IV\Clase1\MiApiCuadrado\bin\Debug\net10.0\publish\MiApiCuadrado.deps.json
+C:\Programación IV\Clase1\MiApiCuadrado\bin\Debug\net10.0\publish\MiApiCuadrado.runtimeconfig.json
+C:\Programación IV\Clase1\MiApiCuadrado\bin\Debug\net10.0\publish\MiApiCuadrado.staticwebassets.endpoints.json

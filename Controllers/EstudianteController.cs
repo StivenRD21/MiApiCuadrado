@@ -30,4 +30,23 @@ public class EstudiantesController : ControllerBase
             return Ok(estudiantes);
         }
     }
+    [HttpPost]
+public IActionResult GuardarEstudiante([FromBody] Estudiante estudiante)
+{
+    string? connectionString = _config.GetConnectionString("DefaultConnection");
+    
+    using (var connection = new SqlConnection(connectionString))
+    {
+        string sql = "INSERT INTO Estudiantes (Nombre, Apellido) VALUES (@Nombre, @Apellido)";
+        
+        var filasAfectadas = connection.Execute(sql, estudiante);
+        
+        if (filasAfectadas > 0)
+        {
+            return Ok("Estudiante guardado exitosamente");
+        }
+        
+        return BadRequest("No se pudo guardar el registro");
+    }
+}
 }

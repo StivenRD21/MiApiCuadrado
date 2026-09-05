@@ -4,3 +4,14 @@ GET {{MiApiCuadrado_HostAddress}}/weatherforecast/
 Accept: application/json
 
 ###
+
+POST https://superheroesdemiapi-b3a5hxfub3h4argw.centralus-01.azurewebsites.net/api/superheroes
+Content-Type: application/json
+
+{
+  "nombreHeroe": "Wolverine",
+  "nombreReal": "Logan",
+  "poder": "Sentidos Ultradesarrollados"
+}
+
+--Aca se agregan los heroes a la base de datos

@@ -1,0 +1,10 @@
+{
+  "solution": {
+    "path": "MiApiCuadrado.slnx",
+    "projects": [
+      "..\\..\\..\\Users\\Stive\\source\\repos\\SuperHeroes\\Stiven.BlazorWASM\\Stiven.BlazorWASM\\Stiven.BlazorWASM.csproj",
+      "..\\..\\..\\Users\\Stive\\source\\repos\\SuperHeroes\\SuperHeroes\\SuperHeroes.csproj",
+      "MiApiCuadrado.csproj"
+    ]
+  }
+}

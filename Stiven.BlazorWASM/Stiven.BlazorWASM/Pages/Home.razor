@@ -1,0 +1,55 @@
+﻿@page "/"
+@inject HttpClient Http
+
+<PageTitle>Superhéroes</PageTitle>
+
+<h1>Directorio de Superhéroes</h1>
+<p>Datos consumidos directamente desde SQL Server en Azure.</p>
+
+@if (heroes == null)
+{
+    <p><em>Cargando héroes desde la base de datos...</em></p>
+}
+else
+{
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Nombre de Héroe</th>
+                <th>Nombre Real</th>
+                <th>Poder / Habilidad</th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var heroe in heroes)
+            {
+                <tr>
+                    <td>@heroe.id</td>
+                    <td>@heroe.nombreHeroe</td>
+                    <td>@heroe.nombreReal</td>
+                    <td>@heroe.poder</td>
+                </tr>
+            }
+        </tbody>
+    </table>
+}
+
+@code {
+    private SuperHeroe[]? heroes;
+
+    protected override async Task OnInitializedAsync()
+    {
+        string apiUrl = "https://superheroesdemiapi-b3a5hxfub3h4argw.centralus-01.azurewebsites.net/api/superheroes";
+
+        heroes = await Http.GetFromJsonAsync<SuperHeroe[]>(apiUrl);
+    }
+
+    public class SuperHeroe
+    {
+        public int id { get; set; }
+        public string? nombreHeroe { get; set; }
+        public string? nombreReal { get; set; }
+        public string? poder { get; set; }
+    }
+}

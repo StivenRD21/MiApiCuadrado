@@ -15,6 +15,16 @@
           }
         }
       },
+      "Microsoft.AspNetCore.App.Internal.Assets/10.0.12": {
+        "type": "package",
+        "build": {
+          "build/Microsoft.AspNetCore.App.Internal.Assets.props": {},
+          "buildTransitive/Microsoft.AspNetCore.App.Internal.Assets.targets": {}
+        },
+        "buildMultiTargeting": {
+          "buildMultiTargeting/Microsoft.AspNetCore.App.Internal.Assets.targets": {}
+        }
+      },
       "Microsoft.AspNetCore.OpenApi/10.0.11": {
         "type": "package",
         "dependencies": {
@@ -390,6 +400,29 @@
         "lib/netstandard2.0/Dapper.dll",
         "lib/netstandard2.0/Dapper.xml",
         "readme.md"
+      ]
+    },
+    "Microsoft.AspNetCore.App.Internal.Assets/10.0.12": {
+      "sha512": "+sIBo9AMBZH46qHWHQdfzcGMt+RuBaPYrUMOAM9VjA7MQ9QtIez3lq1C3E05+Yroa94KKt3DSWaxmCI4H28a9Q==",
+      "type": "package",
+      "path": "microsoft.aspnetcore.app.internal.assets/10.0.12",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "THIRD-PARTY-NOTICES.TXT",
+        "_framework/blazor.server.js",
+        "_framework/blazor.server.js.map",
+        "_framework/blazor.web.js",
+        "_framework/blazor.web.js.map",
+        "_framework/blazor.webassembly.js",
+        "_framework/blazor.webassembly.js.map",
+        "build/Microsoft.AspNetCore.App.Internal.Assets.props",
+        "build/Microsoft.AspNetCore.App.Internal.Assets.targets",
+        "buildMultiTargeting/Microsoft.AspNetCore.App.Internal.Assets.targets",
+        "buildTransitive/Microsoft.AspNetCore.App.Internal.Assets.targets",
+        "microsoft.aspnetcore.app.internal.assets.10.0.12.nupkg.sha512",
+        "microsoft.aspnetcore.app.internal.assets.nuspec"
       ]
     },
     "Microsoft.AspNetCore.OpenApi/10.0.11": {
@@ -874,6 +907,7 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Dapper >= 2.1.79",
+      "Microsoft.AspNetCore.App.Internal.Assets >= 10.0.12",
       "Microsoft.AspNetCore.OpenApi >= 10.0.11",
       "Microsoft.Data.SqlClient >= 7.0.2"
     ]
@@ -935,6 +969,12 @@
             "target": "Package",
             "version": "[2.1.79, )"
           },
+          "Microsoft.AspNetCore.App.Internal.Assets": {
+            "suppressParent": "All",
+            "target": "Package",
+            "version": "[10.0.12, )",
+            "autoReferenced": true
+          },
           "Microsoft.AspNetCore.OpenApi": {
             "target": "Package",
             "version": "[10.0.11, )"
@@ -963,7 +1003,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.400/PortableRuntimeIdentifierGraph.json",
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.401/PortableRuntimeIdentifierGraph.json",
         "packagesToPrune": {
           "Microsoft.AspNetCore": "(,10.0.32767]",
           "Microsoft.AspNetCore.Antiforgery": "(,10.0.32767]",

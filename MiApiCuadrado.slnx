@@ -1,5 +1,5 @@
 <Solution>
-  <Project Path="../../../Users/Stive/source/repos/SuperHeroes/Stiven.BlazorWASM/Stiven.BlazorWASM/Stiven.BlazorWASM.csproj" />
-  <Project Path="../../../Users/Stive/source/repos/SuperHeroes/SuperHeroes/SuperHeroes.csproj" />
   <Project Path="MiApiCuadrado.csproj" />
+  <Project Path="Stiven.BlazorWASM/Stiven.BlazorWASM/Stiven.BlazorWASM.csproj" />
+  <Project Path="SuperHeroes/SuperHeroes.csproj" Id="c9a7e571-f043-4bd3-a6ad-51a2a148a48b" />
 </Solution>

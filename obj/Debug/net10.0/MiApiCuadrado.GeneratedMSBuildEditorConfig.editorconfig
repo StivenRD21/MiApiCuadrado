@@ -22,35 +22,3 @@ build_property.MSBuildProjectDirectory = C:\Programación IV\Clase1\MiApiCuadrad
 build_property._RazorSourceGeneratorDebug = 
 build_property.EffectiveAnalysisLevelStyle = 10.0
 build_property.EnableCodeStyleSeverity = 
-
-[C:/Programación IV/Clase1/MiApiCuadrado/Stiven.BlazorWASM/Stiven.BlazorWASM/App.razor]
-build_metadata.AdditionalFiles.TargetPath = U3RpdmVuLkJsYXpvcldBU01cU3RpdmVuLkJsYXpvcldBU01cQXBwLnJhem9y
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Programación IV/Clase1/MiApiCuadrado/Stiven.BlazorWASM/Stiven.BlazorWASM/Pages/Counter.razor]
-build_metadata.AdditionalFiles.TargetPath = U3RpdmVuLkJsYXpvcldBU01cU3RpdmVuLkJsYXpvcldBU01cUGFnZXNcQ291bnRlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Programación IV/Clase1/MiApiCuadrado/Stiven.BlazorWASM/Stiven.BlazorWASM/Pages/Home.razor]
-build_metadata.AdditionalFiles.TargetPath = U3RpdmVuLkJsYXpvcldBU01cU3RpdmVuLkJsYXpvcldBU01cUGFnZXNcSG9tZS5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Programación IV/Clase1/MiApiCuadrado/Stiven.BlazorWASM/Stiven.BlazorWASM/Pages/NotFound.razor]
-build_metadata.AdditionalFiles.TargetPath = U3RpdmVuLkJsYXpvcldBU01cU3RpdmVuLkJsYXpvcldBU01cUGFnZXNcTm90Rm91bmQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Programación IV/Clase1/MiApiCuadrado/Stiven.BlazorWASM/Stiven.BlazorWASM/Pages/Weather.razor]
-build_metadata.AdditionalFiles.TargetPath = U3RpdmVuLkJsYXpvcldBU01cU3RpdmVuLkJsYXpvcldBU01cUGFnZXNcV2VhdGhlci5yYXpvcg==
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Programación IV/Clase1/MiApiCuadrado/Stiven.BlazorWASM/Stiven.BlazorWASM/_Imports.razor]
-build_metadata.AdditionalFiles.TargetPath = U3RpdmVuLkJsYXpvcldBU01cU3RpdmVuLkJsYXpvcldBU01cX0ltcG9ydHMucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Programación IV/Clase1/MiApiCuadrado/Stiven.BlazorWASM/Stiven.BlazorWASM/Layout/MainLayout.razor]
-build_metadata.AdditionalFiles.TargetPath = U3RpdmVuLkJsYXpvcldBU01cU3RpdmVuLkJsYXpvcldBU01cTGF5b3V0XE1haW5MYXlvdXQucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-dyntic6tgh
-
-[C:/Programación IV/Clase1/MiApiCuadrado/Stiven.BlazorWASM/Stiven.BlazorWASM/Layout/NavMenu.razor]
-build_metadata.AdditionalFiles.TargetPath = U3RpdmVuLkJsYXpvcldBU01cU3RpdmVuLkJsYXpvcldBU01cTGF5b3V0XE5hdk1lbnUucmF6b3I=
-build_metadata.AdditionalFiles.CssScope = b-dggiudrys4

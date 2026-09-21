@@ -1,0 +1,91 @@
+[
+  {
+    "ContainingType": "MiApiCuadrado.Controllers.EstudiantesController",
+    "Method": "GetEstudiantes",
+    "RelativePath": "api/Estudiantes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiApiCuadrado.Controllers.EstudiantesController",
+    "Method": "GuardarEstudiante",
+    "RelativePath": "api/Estudiantes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "estudiante",
+        "Type": "MiApiCuadrado.Models.Estudiante",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiApi.Controllers.MathController",
+    "Method": "Cuadrado",
+    "RelativePath": "api/Math/cuadrado/{numero}",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "numero",
+        "Type": "System.Int32",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiApiCuadrado.Controllers.McdController",
+    "Method": "Calcular",
+    "RelativePath": "api/Mcd",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "a",
+        "Type": "System.Int32",
+        "IsRequired": false
+      },
+      {
+        "Name": "b",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiApiCuadrado.Controllers.SuperheroesController",
+    "Method": "GetSuperheroes",
+    "RelativePath": "api/Superheroes",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "MiApiCuadrado.Controllers.SuperheroesController",
+    "Method": "GuardarSuperheroe",
+    "RelativePath": "api/Superheroes",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "heroe",
+        "Type": "MiApiCuadrado.Models.Superheroe",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

@@ -1,0 +1,19 @@
+[
+  {
+    "Name": "Nuevo perfil",
+    "Projects": [
+      {
+        "Path": "MiApiCuadrado.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "Stiven.BlazorWASM\\Stiven.BlazorWASM\\Stiven.BlazorWASM.csproj",
+        "Action": "Start"
+      },
+      {
+        "Path": "SuperHeroes\\SuperHeroes.csproj",
+        "Action": "Start"
+      }
+    ]
+  }
+]

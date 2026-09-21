@@ -71,3 +71,4 @@ C:\Programación IV\Clase1\MiApiCuadrado\bin\Debug\net10.0\publish\appsettings.j
 C:\Programación IV\Clase1\MiApiCuadrado\bin\Debug\net10.0\publish\MiApiCuadrado.deps.json
 C:\Programación IV\Clase1\MiApiCuadrado\bin\Debug\net10.0\publish\MiApiCuadrado.runtimeconfig.json
 C:\Programación IV\Clase1\MiApiCuadrado\bin\Debug\net10.0\publish\MiApiCuadrado.staticwebassets.endpoints.json
+C:\Programación IV\Clase1\MiApiCuadrado\obj\Debug\net10.0\staticwebassets.upToDateCheck.txt
